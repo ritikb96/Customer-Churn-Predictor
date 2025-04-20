@@ -3,8 +3,10 @@ import joblib
 import pandas as pd
 from src.cleanStrategy import DataPreprocessStrategy
 import logging
-encoders = joblib.load("../encoders.pkl")
-model = joblib.load("../models/model.pkl")
+import os
+model_path = os.path.join("models", "model.pkl")
+model = joblib.load(model_path)
+encoders = joblib.load("./encoders.pkl")
 
 # Just in case, drop the target encoder if it's included
 encoders.pop("Churn", None)
