@@ -7,5 +7,5 @@ seaborn
 xgboost
 imblearn
 streamlit
-scikit
+scikit-learn
 
