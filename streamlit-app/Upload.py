@@ -13,8 +13,8 @@ from src.cleanStrategy import DataPreprocessStrategy
 
 st.set_page_config(page_title="UploadCSV", page_icon="📤")
 
-# Load model
-model = joblib.load("../models/model.pkl")
+model_path = os.path.join("models", "model.pkl")
+model = joblib.load(model_path)
 
 st.title("Churn Prediction App")
 st.write("Upload a CSV file and predict customer churn.")

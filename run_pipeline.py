@@ -27,7 +27,7 @@ if __name__ =='__main__':
     model = train_model(x_train,x_test,y_train,y_test)
     print(model.__class__.__name__)
     report = evaluate_model(model,x_test,y_test)
-    joblib.dump(model, 'models/model.pkl')
+    joblib.dump(model,'models/model.pkl')
 
     log_model(model,report)
 
