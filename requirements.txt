@@ -1,0 +1,11 @@
+mlflow
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+xgboost
+imblearn
+streamlit
+scikit
+

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ChurnPrediction/mlruns/499836910435972335/8afca897323446eaae61955704079e2e/artifacts
+end_time: 1745145624710
+entry_point_name: ''
+experiment_id: '499836910435972335'
+lifecycle_stage: active
+run_id: 8afca897323446eaae61955704079e2e
+run_name: XGBClassifier
+run_uuid: 8afca897323446eaae61955704079e2e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745145617683
+status: 3
+tags: []
+user_id: Ritik

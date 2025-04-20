@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ChurnPrediction/mlruns/499836910435972335/ba93312cb9b54c6ea2f31d4c161f7a8d/artifacts
+end_time: 1744994005675
+entry_point_name: ''
+experiment_id: '499836910435972335'
+lifecycle_stage: active
+run_id: ba93312cb9b54c6ea2f31d4c161f7a8d
+run_name: RandomForestClassifier
+run_uuid: ba93312cb9b54c6ea2f31d4c161f7a8d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744993998166
+status: 3
+tags: []
+user_id: Ritik
