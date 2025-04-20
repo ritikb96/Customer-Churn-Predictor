@@ -6,8 +6,8 @@ import logging
 import os
 model_path = os.path.join("models", "model.pkl")
 model = joblib.load(model_path)
-encoders = joblib.load("./encoders.pkl")
-
+encoder_path = os.path.join("encoders.pkl")
+encoders = joblib.load(encoder_path)
 # Just in case, drop the target encoder if it's included
 encoders.pop("Churn", None)
 st.title("Churn Prediction App")
