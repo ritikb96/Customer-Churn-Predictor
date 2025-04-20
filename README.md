@@ -11,7 +11,7 @@ This repository contains the following components:
 - **MLflow Experiment Tracker**: A tool to track model performance, metrics, and experiments.
 - **Streamlit Web App**: A user-friendly interface to interact with the model and upload data for predictions.
 
----
+You can directly test the app here: https://customer-churn-predictor-dg9nzen8xeey7a7gfplcff.streamlit.app/
 
 ## Installation 🛠️
 
