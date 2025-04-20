@@ -7,6 +7,8 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from imblearn.over_sampling import SMOTE
+import os
+import joblib
 
 
 class DataStrategy(ABC):
@@ -76,8 +78,9 @@ class DataPreprocessStrategy(DataStrategy):
             data.dropna(inplace=True)
 
              # Load the saved encoders
-            with open("../encoders.pkl", "rb") as f:
-                encoders = pickle.load(f)
+            encoder_path = os.path.join("encoders.pkl")
+            encoders = joblib.load(encoder_path)
+
 
             # Encode using the fitted encoders
             for col in data.select_dtypes(include="object").columns:
